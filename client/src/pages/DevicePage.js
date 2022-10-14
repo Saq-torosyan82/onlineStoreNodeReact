@@ -3,6 +3,8 @@ import {Button, Card, Col, Container, Image, Row} from "react-bootstrap";
 import bigStar from '../assets/bigStar.png'
 
 const DevicePage = () => {
+    // const [device, setDevice] = useState({info: []})
+
     const device = {id:2, name: 'apple 1', price: 10, rating: 0, img: 'b0f9941a-d7bf-4bbf-a7d7-7a2513bd5442.jpg', typeId: 1, brandId: 2}
     const description = [
         {id:1, title: 'title 1', description: 'description 1'},
