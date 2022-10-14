@@ -1,16 +1,15 @@
 import React, {useState} from 'react';
 import {Modal, Button, Form} from "react-bootstrap";
+import {createBrand} from "../../http/deviceApi";
 
 const CreateBrand = ({show, onHide}) => {
     const [value, setValue] = useState('')
 
     const addBrand = () => {
-        setValue('')
-        onHide()
-        /*createBrand({name: value}).then(data => {
+        createBrand({name: value}).then(data => {
             setValue('')
             onHide()
-        })*/
+        })
     }
 
     return (
