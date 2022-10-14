@@ -40,7 +40,7 @@ const NavBar = observer(() => {
                     </Nav>
                     :
                     <Nav className="ml-auto" style={{color: 'white'}}>
-                        <Button variant={"outline-light"} onClick={() => navigate(LOGIN_ROUTE)}>Login</Button>
+                        <Button variant={"outline-light"} onClick={() => navigate(LOGIN_ROUTE)}>Authorization</Button>
                     </Nav>
                 }
             </Container>

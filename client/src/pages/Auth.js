@@ -42,7 +42,6 @@ const Auth = () => {
 
                 </Form>
             </Card>
-            AUTH
         </Container>
     );
 };
